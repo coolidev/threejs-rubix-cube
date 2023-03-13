@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#info {
+  font-family: verdana;
+  position: absolute;
+  /* left: 10px; */
+  /* bottom: 10px; */
+  width: 100%;
+  text-align: center;
+  z-index: 100;
+  display: block;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+table tr td:nth-child(1),
+table tr th:nth-child(1) {
+  text-align: right;
+}
+
+table tr td:nth-child(2),
+table tr th:nth-child(2) {
+  text-align: left;
+  padding-left: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
