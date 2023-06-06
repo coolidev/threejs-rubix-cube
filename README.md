@@ -1,2 +1,2 @@
 # threejs-rubix-cube
- JavaScript rubix cube app
+JavaScript rubix cube app
